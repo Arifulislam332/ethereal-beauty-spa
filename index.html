@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TAILWIND CDN  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CUSTOMS CSS -->
+    <link rel="stylesheet" href="./Css/main.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+            padding: {
+              defult: "1rem",
+              sm: 0,
+            },
+          },
+          fontFamily: {
+            sans: ["Bai Jamjuree", "sans-serif"],
+          },
+          extend: {
+            colors: {
+              black: "#1c1d21",
+              white: "#f1e3e4",
+              gray: "#ccbcbc",
+              violet: "#a288a6",
+              cream: "#bb9bb0",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Ethereal Beauty Spa</title>
+  </head>
+  <body class="bg-white text-black overflow-x-hidden">
+    <!-- HEADER -->
+    <header
+      class="h-20 border-b border-cream flex items-center fixed z-[100] top-0 right-0 left-0 w-full bg-black/80 backdrop-blur-xl"
+    >
+      <!-- NAVBER -->
+      <nav class="container flex justify-between items-center gap-5">
+        <!-- LOGO -->
+        <a href="#" class="text-xl lowercase font-semibold text-violet"
+          >Ethereal<span class="text-white">.</span></a
+        >
+        <!-- NAVBER LINKS -->
+        <ul class="flex gap-5 items-center">
+          <li>
+            <a
+              href="#"
+              class="text-cream hover:text-white transition duration-300 ease-in-out"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#services"
+              class="text-cream hover:text-white transition duration-300 ease-in-out"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              href="#pricing"
+              class="text-cream hover:text-white transition duration-300 ease-in-out"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a
+              href="#shop"
+              class="text-cream hover:text-white transition duration-300 ease-in-out"
+              >Shop</a
+            >
+          </li>
+          <li>
+            <a
+              href="#appointment"
+              class="bg-violet text-white px-5 py-3 rounded-full font-medium hover:bg-cream transition duration-300 ease-in-out"
+              >Appointment</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="mt-20">
+      <!-- HERO SECTION -->
+      <section
+        class="h-[calc(100vh-5rem)] bg-no-repeat bg-center bg-cover relative"
+        style="background-image: url(./assets/images/hero.jpg)"
+      >
+        <!-- OVERLAY -->
+        <div
+          class="absolute top-0 bottom-0 right-0 left-0 right-0 w-full h-full bg-gradient-to-t from-black/75 to-transparent z-[1]"
+        ></div>
+
+        <!-- CONTENTS -->
+        <h1 class="text-white text-9xl">
+          HELLO
+        </h1>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer></footer>
+  </body>
+</html>
