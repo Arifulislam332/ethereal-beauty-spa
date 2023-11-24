@@ -402,7 +402,6 @@
               class="absolute -bottom-10 left-[18%] w-[20rem] h-[20rem] bg-violet/80 backdrop-blur-xl text-white p-10 flex flex-col items-start justify-center gap-5"
             >
               <h3 class="text-2xl">Open hours</h3>
-              class="li"
               <div>
                 <p>Welcome to the massage & spa!</p>
                 <p>We are heppy to help you!</p>
@@ -418,7 +417,7 @@
       </section>
 
       <!-- PRICES -->
-      <section id="pricing" class="py-20 bg-slate-100">
+      <section id="pricing" class="py-20 bg-stone-100 relative">
         <!-- SECTION TITLE -->
         <div
           class="flex flex-col container text-center gap-1.5 items-center mb-10"
@@ -497,13 +496,13 @@
               <div class="w-full">
                 <div class="flex items-center gap-5">
                   <h6 class="text-xl font-medium whitespace-nowrap">
-                    Stress Relief Massage
+                    Aromatherapy Massage
                   </h6>
                   <span class="w-full h-px border-b border-dashed"></span>
                 </div>
-                <p>Choose a single massage or take a session.</p>
+                <p>Prevents seasonal flu and improves sleep.</p>
               </div>
-              <h6 class="text-xl font-medium">$70.00</h6>
+              <h6 class="text-xl font-medium">$30.00</h6>
             </div>
 
             <!-- ITEM 3 -->
@@ -511,15 +510,124 @@
               <div class="w-full">
                 <div class="flex items-center gap-5">
                   <h6 class="text-xl font-medium whitespace-nowrap">
-                    Body Exfoliant Scrub
+                    Relaxing Head Massage
                   </h6>
                   <span class="w-full h-px border-b border-dashed"></span>
                 </div>
-                <p>Helps detox the body and reduce cellulite.</p>
+                <p>Get rid of the neck pains and headaches.</p>
               </div>
-              <h6 class="text-xl font-medium">$55.00</h6>
+              <h6 class="text-xl font-medium">$80.00</h6>
             </div>
           </div>
+        </div>
+
+        <!-- LEAF -->
+        <div class="absolute left-0 bottom-0 w-80 h-80 opacity-10">
+          <img src="./assets/images/monstera.png" alt="#" />
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section id="shop" class="py-20">
+        <!-- SECTION TITLE -->
+        <div
+          class="flex flex-col container text-center gap-1.5 items-center mb-10"
+        >
+          <span class="text-gray uppercase font-semibold tracking-widest"
+            >Our shop</span
+          >
+          <h3 class="text-4xl font-medium max-w-lg">Check our goods</h3>
+        </div>
+
+        <!-- PRODUCTS WRRAPER -->
+        <div class="container grid grid-cols-4 gap-10">
+          <!-- ITEM 1 -->
+          <div class="w-full flex flex-col gap-5">
+            <div class="w-full h-[20rem] overflow-hidden">
+              <img
+                src="./assets/images/product-1.jpg"
+                alt="Product 1"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <!-- CONTANT -->
+            <div class="flex flex-col gap-1.5 items-center text-center">
+              <span class="uppercase font-medium text-cyan-500">
+                Night, Simple, Young</span
+              >
+              <h5 class="font-medium text-2xl">Vitamin C serum</h5>
+              <h6 class="text-xl">$60.00</h6>
+            </div>
+          </div>
+          <!-- ITEM 2 -->
+          <div class="w-full flex flex-col gap-5">
+            <div class="w-full h-[20rem] overflow-hidden">
+              <img
+                src="./assets/images/product-2.jpg"
+                alt="Product 1
+                2"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <!-- CONTANT -->
+            <div class="flex flex-col gap-1.5 items-center text-center">
+              <span class="uppercase font-medium text-cyan-500">
+                Morning, Sale, Young</span
+              >
+              <h5 class="font-medium text-2xl">Organic soap</h5>
+              <div class="flex gap-2.5">
+                <h6 class="text-xl opacity-25">
+                  <del> $22.00 </del>
+                </h6>
+                <h6 class="text-xl">$22.00</h6>
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 3 -->
+          <div class="w-full flex flex-col gap-5">
+            <div class="w-full h-[20rem] overflow-hidden">
+              <img
+                src="./assets/images/product-3.jpg"
+                alt="Product 3"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <!-- CONTANT -->
+            <div class="flex flex-col gap-1.5 items-center text-center">
+              <span class="uppercase font-medium text-cyan-500">
+                Aging, Night, Young</span
+              >
+              <h5 class="font-medium text-2xl">Moisturizing lotion</h5>
+              <h6 class="text-xl">$49.00</h6>
+            </div>
+          </div>
+          <!-- ITEM 4 -->
+          <div class="w-full flex flex-col gap-5">
+            <div class="w-full h-[20rem] overflow-hidden">
+              <img
+                src="./assets/images/product-4.jpeg"
+                alt="Product 4"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <!-- CONTANT -->
+            <div class="flex flex-col gap-1.5 items-center text-center">
+              <span class="uppercase font-medium text-cyan-500">
+                Morning, Variable, Young</span
+              >
+              <h5 class="font-medium text-2xl">Stimulating skincare</h5>
+              <h6 class="text-xl">$220.00</h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- BUTTON -->
+        <div class="mt-10 flex justify-center">
+          <button
+            class="h-32 w-32 bg-cream rounded-full text-white p-5 font-medium border-2 border-cream hover:bg-transparent transition duration-300 ease-in-out hover:text-cream"
+          >
+            View More
+          </button>
         </div>
       </section>
     </main>
